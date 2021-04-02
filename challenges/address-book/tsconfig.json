@@ -2,7 +2,8 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "noImplicitAny": true
   },
   "include": ["src"]
 }
