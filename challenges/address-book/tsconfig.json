@@ -3,7 +3,11 @@
     "allowJs": true,
     "checkJs": true,
     "outDir": "dist",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true
   },
   "include": ["src"]
 }
