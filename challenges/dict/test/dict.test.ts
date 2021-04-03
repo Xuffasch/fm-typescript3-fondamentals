@@ -29,20 +29,6 @@ describe("Dict type", () => {
       ghi: ["jkl", "mno"]
     };
   });
-  it("(compile) should have a default typeParam", () => {
-    const x: Dict = {
-      abc: ["def"],
-      ghi: ["jkl", "mno"]
-    };
-  });
-  it("(compile) should have a default typeParam of `any`", () => {
-    const x: Dict = {
-      abc: "def",
-      ghi: ["jkl", "mno"],
-      pqr: 4,
-      stu: () => false
-    };
-  });
 });
 
 describe("mapDict", () => {
